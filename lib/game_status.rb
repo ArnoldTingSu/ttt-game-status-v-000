@@ -58,6 +58,7 @@ else
   end
 end
 
+<<<<<<< HEAD
 def winner (board)
   index = []
   index = won?(board)
@@ -69,5 +70,10 @@ def winner (board)
     else
       return "O"
     end
+=======
+def full?(board)
+  board.all? do |box|
+    box == "X" || box == "O"
+>>>>>>> 496f66903981b204800eead5e64693c654669742
   end
 end
